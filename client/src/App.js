@@ -1,9 +1,12 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import QuestionPoster from './components/QuestionPoster';
 
 function App() {
   return (
-    <div className="App">
-        hello World
+    <div className="">
+        <Navbar/>
+        <QuestionPoster/>
     </div>
   );
 }
