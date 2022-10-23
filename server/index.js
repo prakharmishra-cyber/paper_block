@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 
 app.use('/papers', PaperRouter);
 
-const CONNECTION_URL = 'mongodb+srv://practice_project:question_paper@cluster0.32njx.mongodb.net/test';
+const CONNECTION_URL = 'mongodb+srv://practice_project:1234@cluster0.32njx.mongodb.net/test';
 const PORT = 3000;
 
 
